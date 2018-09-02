@@ -7,7 +7,7 @@ public interface Appliance {
 
     //EFFECTS: returns true if appliance should run while away
     boolean runsWhileAway();
-
+//
     //MODIFIES: this
     //EFFECTS: sets whether runs while away to b
     void setRunsWhileAway(boolean b);
